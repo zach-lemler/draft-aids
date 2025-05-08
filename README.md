@@ -40,3 +40,9 @@ Download python
 
 Install required libraries from requirements.txt  
 python -m pip install -r path/to/requirements.txt  
+
+
+
+---  why selenium for picks ---
+
+because Sleeper's draft pick API currenlty takes 5 minutes + to refresh
