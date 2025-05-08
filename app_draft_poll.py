@@ -14,17 +14,17 @@ api = Api(app)
 class DraftPoll(Resource):
     def put(self, draft_id):
         drafted=[]
+        
+        options = webdriver.ChromeOptions()
+        options.add_argument('--disable-gpu')  # Disable GPU hardware acceleration
+        options.add_argument('--disable-dev-shm-usage')  # Overcome limited resource problems
+        options.add_argument('--no-sandbox')  # Bypass OS security model
+        options.add_argument('--disable-web-security')  # Disable web security
+        options.add_argument('--allow-running-insecure-content')  # Allow running insecure content
+        options.add_argument('--disable-webrtc')  # Disable WebRTC
+        options.add_argument("headless")
+        driver = webdriver.Chrome(options=options)
         try:
-            options = webdriver.ChromeOptions()
-            options.add_argument('--disable-gpu')  # Disable GPU hardware acceleration
-            options.add_argument('--disable-dev-shm-usage')  # Overcome limited resource problems
-            options.add_argument('--no-sandbox')  # Bypass OS security model
-            options.add_argument('--disable-web-security')  # Disable web security
-            options.add_argument('--allow-running-insecure-content')  # Allow running insecure content
-            options.add_argument('--disable-webrtc')  # Disable WebRTC
-            options.add_argument("headless")
-            driver = webdriver.Chrome(options=options)
-
             # Open a web page
             driver.get(f"https://sleeper.com/draft/nfl/{draft_id}")
             time.sleep(2)
@@ -39,7 +39,7 @@ class DraftPoll(Resource):
                 except:
                     pass
 
-            # Close the browser
+            driver.close()
         except:
             driver.close()
             drafted = []
