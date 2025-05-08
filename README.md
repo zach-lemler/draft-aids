@@ -9,7 +9,7 @@ In db/players.csv there is a my_guys column
 Add anything to the column for any player you want tracked  
 
 Run app_daddy.py and app_draft_poll.py  
-Open browser and got to http://127.0.0.1:8050/   
+Open browser and go to http://127.0.0.1:8050/   
 
 Copying your draft id from the sleeper draft url will live track your draft  
 Selecting a position will filter just the bar graph based on that selection  
