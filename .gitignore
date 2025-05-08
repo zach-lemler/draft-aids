@@ -1,0 +1,11 @@
+/__pycache__
+/tiers
+/db
+
+ranking_review.csv
+
+*.bat
+
+chromedrive.exe
+THIRD_PARTY_NOTICES.chromedriver
+LICENSE.chromedriver

@@ -1,0 +1,12 @@
+pandas==2.2.3
+numpy==2.2.5
+scikit-learn==1.6.1
+requests==2.32.3
+flask==3.0.3
+plotly==6.0.1
+dash==3.0.4
+dash_core_components==3.0.6
+dash_table==6.0.2
+dash_html_components==3.0.2
+dash_bootstrap_components==2.0.2
+selenium==4.32.0
