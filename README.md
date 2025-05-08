@@ -1,6 +1,6 @@
 # Draft Aids
 
---- usage ---
+## Usage
 
 run tiers_daddy.py to scrape rankings and create tiers  
 in db/players.csv there is a my_guys column  
@@ -29,7 +29,7 @@ start F:\path\to\python\python.exe .\app_daddy.py
 start  F:\path\to\python\python.exe .\app_draft_poll.py  
 
 
---- set up ---
+## Set Up 
 
 Google Chrome required  
 Find your Chrome version in settings/About Chrome  
@@ -39,10 +39,10 @@ paste the extracted files in the draft-aids folder
 Download python  
 
 Install required libraries from requirements.txt  
-python -m pip install -r path/to/requirements.txt  
+python -m pip install -r path/to/requirements.txt    
 
 
 
----  why selenium for picks ---
+## why selenium for picks 
 
 because Sleeper's draft pick API currenlty takes 5 minutes + to refresh
