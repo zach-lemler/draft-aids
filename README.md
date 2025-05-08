@@ -25,8 +25,8 @@ example batch file to start both apps
 
 @echo off  
 
-start F:\python\anaconda3\envs\draft-aid\python.exe .\app_daddy.py  
-start F:\python\anaconda3\envs\draft-aid\python.exe .\app_draft_poll.py  
+start F:\path\to\python\python.exe .\app_daddy.py  
+start  F:\path\to\python\python.exe .\app_draft_poll.py  
 
 
 --- set up ---
