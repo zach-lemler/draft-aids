@@ -20,6 +20,15 @@ red more than 24 picks away
 the pick column is the actual number of picks away they are
 players that populate this table are ones that your selected rankings value at least half a round higher than Sleeper ADP
 
+
+example batch file to start both apps  
+
+@echo off  
+
+start F:\python\anaconda3\envs\draft-aid\python.exe .\app_daddy.py  
+start F:\python\anaconda3\envs\draft-aid\python.exe .\app_draft_poll.py  
+
+
 --- set up ---
 
 Google Chrome required  
