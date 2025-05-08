@@ -15,14 +15,6 @@ rankings names across the top are a multiselect and will show an aggregated rank
 
 
 
-example of batch file to start both app_daddy.py and app_draft_poll.py  
-
-@echo off  
-start /B F:\path\to\python\python.exe .\app_daddy.py  
-start /B F:\path\to\python\python.exe .\app_draft_poll.py  
-
-
-
 --- set up ---
 
 Google Chrome required  
