@@ -1,6 +1,8 @@
 # Draft Aids
 
+
 ## Usage
+
 
 run tiers_daddy.py to scrape rankings and create tiers  
 in db/players.csv there is a my_guys column  
@@ -21,15 +23,9 @@ the pick column is the actual number of picks away they are
 players that populate this table are ones that your selected rankings value at least half a round higher than Sleeper ADP  
 
 
-example batch file to start both apps  
-
-@echo off  
-
-start F:\path\to\python\python.exe .\app_daddy.py  
-start  F:\path\to\python\python.exe .\app_draft_poll.py  
-
 
 ## Set Up 
+
 
 Google Chrome required  
 Find your Chrome version in settings/About Chrome  
@@ -42,7 +38,14 @@ Install required libraries from requirements.txt
 python -m pip install -r path/to/requirements.txt    
 
 
+For easier start up you can make a batch script calling both apps
+@echo off  
+start F:\path\to\python\python.exe .\app_daddy.py  
+start  F:\path\to\python\python.exe .\app_draft_poll.py  
+
+
 
 ## why selenium for picks 
+
 
 because Sleeper's draft pick API currenlty takes 5 minutes + to refresh
