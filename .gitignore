@@ -6,6 +6,6 @@ ranking_review.csv
 
 *.bat
 
-chromedrive.exe
+chromedriver.exe
 THIRD_PARTY_NOTICES.chromedriver
 LICENSE.chromedriver
