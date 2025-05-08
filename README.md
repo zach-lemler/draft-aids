@@ -13,7 +13,12 @@ copying your draft id from the sleeper draft url will live track your draft
 selecting a position will filter just the bar graph based on that selection  
 rankings names across the top are a multiselect and will show an aggregated ranking for all sites chosen  
 
-
+the value table will change color based on how close the pick is to happening
+green 12 or less picks aaway
+yellow 24 - 13 picks away
+red more than 24 picks away
+the pick column is the actual number of picks away they are
+players that populate this table are ones that your selected rankings value at least half a round higher than Sleeper ADP
 
 --- set up ---
 
